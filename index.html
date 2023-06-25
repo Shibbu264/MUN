@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-ZZjLHEpK4C+XjD4GAdg/O1Vl7u/dnYIfxoyA8hJfBXXg8eG/uAkiWJyZK0R0Tn8Egl3aIgIuJ2yA2YASLadHsw==" crossorigin>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body id="body">
+  
+  <header>
+    <img class="logo" src="https://www.iitbhumun.com/images/active-nav-log.svg" alt="Logo">
+
+  <div class="ab">
+    <a href="#">Home</a>
+    <a href="#">Committees</a>
+    <a href="#">Secretariat</a>
+    <a href="#">Partners</a>
+    <a href="#">Gallery</a>
+    <a href="#">FAQ</a>
+    
+    <button class="register1" id="register" >Register!</button>
+   <i class="fas fa-user profile" class="profile" id="profileicon"><a></a></i></div>
+  </div>
+  
+
+
+  </header>
+  <div class="sliding-window" id="slidingWindow">
+    <div class="window-content">
+      <h3>Welcome, User!</h3>
+      <button class="closeIcon" id="closeIcon">X</button>
+      <p>IIT BHU MUN'23.</p>
+    </div>
+  </div>
+  <div class="section1">
+  
+  <div class="wrapper"  id="poll">
+    
+    <button class="modal-close-btn" id="close" >X</button>
+    <input type="text" placeholder="Fullname" id="nameInp" class="form-control mb-3">
+    <input type="text" placeholder="Email" id="emailimp" class="form-control mb-3">
+    <input type="text" placeholder="Username" id="userimp" class="form-control mb-3">
+    <input type="password" placeholder="Password" id="pswdimp" class="form-control mb-3">
+    <div  class="btn w-80 btn-outline-primary mb-3" type="submit" id="subbtn">Sign up</div>
+   
+  
+  
+    
+        
+     
+</div>
+<div class="maincontent">
+  
+  <div class="Image-content">
+    <img class="logo1" src="https://www.iitbhumun.com/images/active-nav-log.svg" alt="Logo">
+    <h1>IITBHU MUN  </h1>
+    <h2>2023  </h2>
+    <h3 id="h3">Rise. Speak. Resolve</h3>
+    <button class="register1" id="register1" >Register</button>
+        </div>
+      </div>  
+  <div class="content1">
+  <H1>Letter from Secretary general</H1>
+  <p>Dear Delegates, respected Faculty Advisors, and the Secretariat,
+
+    It gives me immense pleasure to announce the beginning of the 11th edition of the IITBHU Model United Nations. Over its rich legacy of ten years, IITBHU MUN, being one of the pioneering Model United Nations conferences, has garnered a notable position in the northern circuit. The endorsement of our conference by Hon’ PM Shri. Narendra Modi is a mark of its national importance. Even during the COVID years, IITBHU MUN witnessed participation from over twenty-two nationalities, graced by eminent foreign ambassadors and keynote speakers.
+    
+    The thrill and excitement of participating in Model United Nations like those years ago indeed faded during the COVID years, and the transition from online platforms to offline dais is quite challenging. With the upcoming conference, let us together repaint and restore, once again, the lost picture in this holy city of Benares.
+    
+    Leading such a prestigious conference is a tremendous undertaking; however, with the wisdom imparted by the previous Secretary Generals and with such a dynamic and hardworking Secretariat, I am more than hopeful about this edition’s enthralling experience it promises to deliver.
+    
+    Therefore, to everyone reading this, I invite you all to be part of this grand edition. Bring on the fiery debates, the urge to change the world, and of course, fruitful deliberations with resolutions concentrated on innovative ideas.
+    
+    See you all at IITBHU Model United Nations’23!</p>
+    <h2>Regards,
+
+      Moulik Ketkar
+      
+      Secretary-General, IITBHU MUN’23</h2>
+      </div>
+      <h2 class="legacy">Our Legacy</h2>
+<div class="achievements">
+  
+<div>
+  
+  <img src="https://www.iitbhumun.com/images/conferences.svg">
+  <h1>Conferences</h1>
+</div>
+<div>
+  <img src="https://www.iitbhumun.com/_next/image?url=%2Fimages%2Flegacy-circle2.png&w=256&q=75">
+<h1> Nationality</h1></div>
+<div>
+  <img src="https://www.iitbhumun.com/images/legacy-circle3.svg">
+<h1>   Delegates</h1>
+</div>
+
+</div>
+
+
+
+
+
+  <footer>
+    <div class="first">
+      <div class="location">
+        <i class="fas fa-map-marker-alt"></i>
+        IIT (BHU) Varanasi, India
+      </div>
+      <div class="mail">
+        <i class="far fa-envelope"></i>
+        <a href="mailto:information@iitbhumun.com">information@iitbhumun.com</a>
+      </div>
+    </div>
+    <div class="second"> <ul class="participation-menu">
+      <li><a href="#">Register</a></li>
+      <li><a href="#">Follow us</a></li>
+    </ul>
+    <div class="icons1">
+      <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="icon"><i class="fab fa-linkedin"></i></a>
+      <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+    </div></div>
+    <h3>2023 all rights reserved</h3>
+  </footer>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js" type="module"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js" type="module"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database.js"type="module"></script>
+
+
+
+
+<script src="script.js" type="module"></script>
+</body>
+</html>

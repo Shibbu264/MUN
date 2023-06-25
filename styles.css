@@ -1,0 +1,398 @@
+/* CSS for the header */
+*{margin: 0;
+padding: 0;}
+body{margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  position: relative;
+  
+  }
+  .modal-close-btn{
+    display: block;
+    
+    margin-left: auto;
+    margin-right: 4px;
+  font-size: larger;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    background-color: white;
+    border-radius: 100%;
+    width:30px;
+    height: 30px;
+    padding: auto;
+    cursor: pointer;
+    
+  }
+  .wrapper {
+    display: none;
+    position: fixed;
+    border: #000 2px solid;
+    height: 800px;
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  padding: 4px;
+  border-radius: 10px;
+    background-color: #100e0e;
+  
+    top: 0px;
+    margin-bottom: 70px;
+  
+    bottom: 0;
+    left: 0;
+    right: 0;
+  
+  
+  
+  
+  
+  
+  
+  
+  }
+  
+
+  .Image-content h1 {
+    font-weight: bolder;
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .20em; 
+    animation-delay: 1s;
+    animation: 
+      typing 3.5s steps(40,start) 2s infinite,
+      blink-caret .75s step-end ;
+      
+  }
+  
+  
+  @keyframes typing {
+    from { width: 0% }
+    to { width: 30% }
+  }
+  
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  .Image-content h3{
+    display: inline;
+    margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+  .Image-content{
+    background-image: url("images/ilyass-seddoug-06w8RxgSzF0-unsplash\ \(1\).jpg");
+   border: 2px solid rgb(21, 21, 22) ;
+margin-top: 20px;
+margin-bottom: 30px;
+align-content: center;
+margin-left: auto;
+margin-right: auto;
+    display: inline;
+    font-size: larger;
+    box-shadow: 0px 0px  3px 2px rgb(13, 13, 13);
+    width: 1200px;
+    color:  rgb(63, 195, 188);
+    
+text-align: center;
+display: block;
+padding: 90px;
+font-size: 4pc;
+background-position: center;
+  background-repeat: no-rept;
+  background-size:100% 100%
+
+  }
+  .Image-content h3{color:white;
+    margin: 0 auto;
+    animation-delay: 3s;
+  animation-name:kiku;
+  
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  
+  }
+  @keyframes kiku {
+    0%{
+      opacity: 0;
+    }
+    100%{width: 100%;}
+  }
+  .profile-icon {
+    cursor: pointer;
+  }
+  
+  .sliding-window {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: right 0.3s ease-in-out;
+  }
+  
+  .sliding-window.open {
+    right: 0;
+  }
+  
+  .window-content {
+    padding-top: 35px;
+    padding: 25px;
+  }
+  
+  
+  .sliding-window::-webkit-scrollbar {
+    display: none;
+  }
+  .closeIcon {
+    position: absolute;
+    top: 12px;
+    left: 7px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    color: red;
+    margin-top: -7px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    
+    
+    font-weight: bolder;
+    border-radius: 100%;
+    
+  }
+  .closeIcon:hover{
+    color: rgb(22, 4, 4);
+  }
+  .register1{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    width: 130px;
+height: 40px;
+border-radius: 6px;
+color: white;
+background-color: rgb(93, 93, 196);
+font-size: x-large;
+font-weight: bolder;    margin: 10 auto;
+transition: width 0.5s ,height 0.5s;
+border: 0;
+  }
+.register1:hover{
+  background-color: rgb(75, 75, 188);
+}
+.content1{
+  color: black;
+min-height: fit-content;
+padding-left: 60px;
+padding-right: 60px;
+padding: 40px;
+font-size: larger;
+width: cover;
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: 16px;
+margin-top: 16px;
+box-shadow: 0px 0px  3px 2px rgb(132, 132, 216);
+}
+.content1 h1{
+  margin-bottom: 18px;
+}
+.content1 h2{
+  padding: 8px;
+}
+
+header {padding: 0;
+  box-shadow: 0px 0px  3px 2px rgb(132, 132, 216);
+  border:2px solid  rgb(132, 132, 216); 
+  border-radius: 4px;
+  box-shadow: inset ;
+  height: 90px;
+  font-size: x-large;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 15px;
+  margin-left:auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+padding-right: 50px;
+  background-color:white;
+  padding: 10px;
+  max-height: fit-content;
+  width: cover;
+  color: beige;
+  box-shadow: 6px 4px white;
+  scroll-behavior: smooth;
+}
+
+/* CSS for the logo */
+.logo {
+  float: left;
+  margin-left: 10px;
+  margin-right:30px;
+  
+}
+
+/* CSS for the anchor tags */
+.register{
+  cursor: pointer;
+ 
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 0;
+  margin-left: auto;
+  display: block;
+  
+  font-size:10%;
+  border-radius: 8px;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px 12px;
+}
+.register:hover{
+  padding:6px 13px;
+}
+
+.ab  {display: flex;
+  justify-content: end;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 30px;
+  margin-right: 60px;
+  color: rgb(15, 14, 14);
+  font-weight: bold;
+  text-decoration: none;
+  margin:5 auto;
+  
+}
+.ab a:hover{
+  
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-color: rgb(132, 132, 216);
+}
+.profile {
+  margin-left: 10px;
+  margin-right: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 48px; 
+  width: 24px; 
+  height: 24px; 
+  cursor: pointer;
+}
+.profile:hover {
+  color: rgb(44, 44, 214);
+  
+  
+}
+
+a{
+  color: rgb(177, 50, 50);
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 60px;
+}
+footer {
+  padding:50px;
+  text-align: center;
+  display: flex
+  ;
+  justify-content: center;
+
+  bottom: 0;
+  height:cover;
+  width:cover;
+  background-color: black;
+  color: white;
+  
+}
+.first,.second{
+  color: white;
+font-size: larger;
+padding: 8px;
+
+}
+.icons1 {
+  gap: 0px;
+  justify-content: center;
+  display: flex;
+  
+}
+  .icons1 i{
+    width: 0px;
+    color: white;
+  }
+  .icons {width: 50px;}
+
+  
+  .snackbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+    z-index: 9999;
+  }
+
+.achievements{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+}
+.achievements div{
+  display: block;
+}
+.achievements h1{
+  color: rgb(8, 91, 64);
+  margin-top: 6px;
+  margin-left: 10px;
+}
+.legacy{
+  display: block;
+  text-align: center;
+  margin: 12px auto;
+}
+.title1{
+  display: flex;
+  justify-content: center;
+}
+.title1 h2{
+  justify-content: flex-start;
+  display: block;
+  color:black
+}
+.material-icons {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.form-control{
+  margin-bottom: -4px;
+  margin-top: -10px;
+}

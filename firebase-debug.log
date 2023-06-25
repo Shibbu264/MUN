@@ -1,0 +1,42 @@
+[debug] [2023-06-22T17:18:35.901Z] ----------------------------------------------------------------------
+[debug] [2023-06-22T17:18:35.903Z] Command:       C:\Users\DELL\DOWNLO~1\firebase (exe).exe C:\Users\DELL\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
+[debug] [2023-06-22T17:18:35.903Z] CLI Version:   11.28.0
+[debug] [2023-06-22T17:18:35.903Z] Platform:      win32
+[debug] [2023-06-22T17:18:35.903Z] Node Version:  v16.16.0
+[debug] [2023-06-22T17:18:35.917Z] Time:          Thu Jun 22 2023 22:48:35 GMT+0530 (India Standard Time)
+[debug] [2023-06-22T17:18:35.917Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-22T17:18:36.089Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-22T17:18:36.090Z] > authorizing via signed-in user (shivanshu264@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2023-06-22T17:18:36.105Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-22T17:18:36.105Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-22T17:18:36.106Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-06-22T17:18:36.119Z] [hub] writing locator at C:\Users\DELL\AppData\Local\Temp\hub-mun264.json
+[debug] [2023-06-22T17:18:36.160Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/mun264/sites 
+[debug] [2023-06-22T17:18:37.666Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/mun264/sites 200
+[debug] [2023-06-22T17:18:37.666Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/mun264/sites {"sites":[{"name":"projects/mun264/sites/mun264","defaultUrl":"https://mun264.web.app","appId":"1:488480696082:web:493b4486b3bf0b23bd75cb","type":"DEFAULT_SITE"}]}
+[debug] [2023-06-22T17:18:37.667Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mun264/webApps/1:488480696082:web:493b4486b3bf0b23bd75cb/config [none]
+[debug] [2023-06-22T17:18:39.128Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mun264/webApps/1:488480696082:web:493b4486b3bf0b23bd75cb/config 200
+[debug] [2023-06-22T17:18:39.129Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mun264/webApps/1:488480696082:web:493b4486b3bf0b23bd75cb/config {"projectId":"mun264","appId":"1:488480696082:web:493b4486b3bf0b23bd75cb","databaseURL":"https://mun264-default-rtdb.firebaseio.com","storageBucket":"mun264.appspot.com","apiKey":"AIzaSyCNwmvSMUdVB4329caJoMtM4PABZsUfGy0","authDomain":"mun264.firebaseapp.com","messagingSenderId":"488480696082","measurementId":"G-779G0GB1JZ"}
+[debug] [2023-06-22T17:18:39.140Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mun264 [none]
+[debug] [2023-06-22T17:18:39.739Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mun264 200
+[debug] [2023-06-22T17:18:39.739Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mun264 {"projectId":"mun264","projectNumber":"488480696082","displayName":"MUN264","name":"projects/mun264","resources":{"hostingSite":"mun264","realtimeDatabaseInstance":"mun264-default-rtdb"},"state":"ACTIVE","etag":"1_213ef595-1b5d-49d0-8118-8b1178579a60"}
+[info] i  hosting[mun264]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[mun264]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
